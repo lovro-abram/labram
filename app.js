@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
-   Shared app logic for Lovro's site.
+   Shared app logic for Lovro's site (neo-brutal redesign).
    Pages define `Lovro.onLangChange` (optional) to react to
    language switches; `Lovro.applyLang()` is called once after
    load and again on every language change.
@@ -11,34 +11,42 @@
   const T = {
     en: {
       /* meta / titles */
-      title_home: 'Lovro — Photos, Faith & the 30-Day Journey',
+      title_home: 'Lovro — one short video about Jesus, every day',
       title_days: '30 Days about Jesus — Lovro',
-      meta_desc_home: 'Lovro — photographer and storyteller following Jesus. Photos with Bible verses, the 30-day video challenge and a free PDF of the journey.',
-      meta_desc_days: '30 days, 30 short videos about Jesus, every day something new.',
+      meta_desc_home: 'Lovro posts a short video about Jesus and the Bible every day. Follow the journey on Instagram, browse all 30 days in one place, and think with a daily quote in Thinkel.',
+      meta_desc_days: 'All 30 short videos about Jesus in one place — one per day, each linking to its Instagram reel.',
+      og_title_home: 'Lovro — one short video about Jesus, every day',
+      og_desc_home: 'A daily short video about Jesus and the Bible, the 30-day journey in one place, and a free daily-quote app.',
 
       /* global */
       skip: 'Skip to content',
       new_tab: '(opens in a new tab)',
       footer: '© 2026 Lovro Abram · made with faith, light & love',
+      back_home: 'Home',
+
+      /* hero */
+      hero_badge: 'One short video, every day',
+      hero_h1: 'Faith, one short <span class="hl">video</span> a day.',
+      hero_line: "I'm Lovro — I post a short video about Jesus and the Bible every single day.",
+      hero_fig: "that's me",
+      ig_primary: 'Follow on Instagram',
+      days_btn: 'Browse the 30 days',
 
       /* home page */
       about_title: 'About me',
-      tagline: 'Photographer · Storyteller · Follower of Jesus',
-      about_p1: "I am Lovro — a photographer who sees God's fingerprints in every frame. For years I shared photos with motivational quotes; today the same photos carry the words that actually hold me: Bible verses.",
-      about_p2: 'I also film short videos about Jesus and the Bible. What began as a 30-day challenge became a personal journey of growth, discovery and a deeper relationship with Him. This site is that journey, written down and shared.',
-      cta_title: 'The journey whith Jesus',
-      cta_note: 'One short video per day — 30 days, one journey.',
+      tagline: 'Storyteller · Video maker · Follower of Jesus',
+      about_p1: 'I am Lovro. What began as a 30-day challenge became a daily habit: short, honest videos about Jesus and the Bible — who He is, what He said, and why it still matters.',
+      about_p2: 'This site is that journey, written down and shared: the videos, a daily quote to think with, and a place to start your own 30 days.',
+      days_title: 'The journey with Jesus',
+      days_note: 'The whole journey in one place — all 30 short videos, one per day, ready whenever you are.',
       cta_btn: '30 Days about Jesus',
-      thinkel_title: 'Daily quotes — Thinkel',
-      thinkel_desc: 'One quote a day to think with. Save favorites, write your thoughts, share quotes as image...',
+      thinkel_title: 'Thinkel — daily quotes',
+      thinkel_desc: 'One thought-provoking quote a day. Save it, write your thoughts, share it as an image.',
       thinkel_btn: 'Open',
-      ig_title: 'Instagram',
-      ig_desc: 'Follow the journey, catch new videos first, and see the astonishing photos.',
-      ig_btn: 'Follow',
 
       /* 30-days page */
       days_h1: '30 Days about Jesus',
-      days_subtitle: '30 days, 30 short videos about Jesus, every day something new.',
+      days_subtitle: '30 days, 30 short videos about Jesus — every day something new.',
       progress_label: 'Days released',
       progress: '{d} of 30 days released',
       all_done: 'All 30 days are live — thank you for walking with me!',
@@ -49,34 +57,50 @@
       grid_note: 'Locked days unlock as new videos go live on Instagram.',
       toast_locked: 'This day is not live yet — follow me on Instagram to catch it first!',
       grid_noscript: 'The day grid needs JavaScript.',
-      grid_noscript_link: 'See the videos on Instagram →'
+      grid_noscript_link: 'See the videos on Instagram →',
+
+      /* instagram card */
+      ig_title: 'Instagram',
+      ig_desc: 'Follow the journey and catch each new video the day it drops.',
+      ig_btn: 'Follow'
     },
     sl: {
-      title_home: 'Lovro — fotografije, vera in pot 30 dni',
+      /* meta / titles */
+      title_home: 'Lovro — vsak dan en kratek video o Jezusu',
       title_days: '30 dni o Jezusu — Lovro',
-      meta_desc_home: 'Lovro — fotograf in pripovedovalec, ki sledi Jezusu. Fotografije s svetopisemskimi vrsticami, 30-dnevni video izziv in brezplačen PDF poti.',
-      meta_desc_days: '30 dni, 30 kratkih videov o Jezusu, vsak dan nekaj novega.',
+      meta_desc_home: 'Lovro vsak dan objavi kratek video o Jezusu in Svetem pismu. Sledi poti na Instagramu, poglej vseh 30 dni na enem mestu in razmišljaj z dnevnim citatom v Thinkelu.',
+      meta_desc_days: 'Vseh 30 kratkih videov o Jezusu na enem mestu — en na dan, vsak s povezavo do Instagramreela.',
+      og_title_home: 'Lovro — vsak dan en kratek video o Jezusu',
+      og_desc_home: 'Dnevni kratek video o Jezusu in Svetem pismu, pot 30 dni na enem mestu in brezplačna aplikacija z dnevnimi citati.',
 
       skip: 'Preskoči na vsebino',
       new_tab: '(odpre se v novem zavihku)',
       footer: '© 2026 Lovro Abram · narejeno z vero, svetlobo in ljubeznijo',
+      back_home: 'Domov',
 
+      /* hero */
+      hero_badge: 'En kratek video, vsak dan',
+      hero_h1: 'Vera, en kratek <span class="hl">video</span> na dan.',
+      hero_line: 'Sem Lovro — vsak dan objavim kratek video o Jezusu in Svetem pismu.',
+      hero_fig: 'to sem jaz',
+      ig_primary: 'Sledi na Instagramu',
+      days_btn: 'Prebrskaj 30 dni',
+
+      /* home page */
       about_title: 'O meni',
-      tagline: 'Fotograf · pripovedovalec · sledilec Jezusa',
-      about_p1: 'Sem Lovro — fotograf, ki v vsakem kadru vidi Božje sledi. Dolgo sem delil fotografije z motivacijskimi citati; danes iste fotografije nosijo besede, ki me zares držijo: svetopisemske vrstice.',
-      about_p2: 'Snemam tudi kratke videe o Jezusu in Svetem pismu. Kar se je začelo kot 30-dnevni izziv, je postalo osebna pot rasti, odkrivanja in poglobljenega odnosa z njim. Ta stran je ta pot, zapisana in deljena.',
-      cta_title: 'Pot z Jezusom',
-      cta_note: 'En kratek video na dan — 30 dni, ena pot.',
+      tagline: 'Pripovedovalec · video ustvarjalec · sledilec Jezusa',
+      about_p1: 'Sem Lovro. Kar se je začelo kot 30-dnevni izziv, je postala dnevna navada: kratki, iskreni videi o Jezusu in Svetem pismu — kdo je, kaj je rekel in zakaj še danes šteje.',
+      about_p2: 'Ta stran je ta pot, zapisana in deljena: videi, dnevni citat za razmislek in mesto, kjer začneš svojih 30 dni.',
+      days_title: 'Pot z Jezusom',
+      days_note: 'Cela pot na enem mestu — vseh 30 kratkih videov, en na dan, pripravljeno, kadar koli si pripravljen ti.',
       cta_btn: '30 dni o Jezusu',
-      thinkel_title: 'Dnevni citati — Thinkel',
-      thinkel_desc: 'En citat na dan za razmislek. Shrani priljubljene, zapiši svoje misli, deli citat kot sliko...',
+      thinkel_title: 'Thinkel — dnevni citati',
+      thinkel_desc: 'En citat na dan za razmislek. Shrani ga, zapiši svoje misli, deli kot sliko.',
       thinkel_btn: 'Odpri',
-      ig_title: 'Instagram',
-      ig_desc: 'Sledi poti, prvi ujemi nove videe in poglej osupljive fotografije.',
-      ig_btn: 'Sledi',
 
+      /* 30-days page */
       days_h1: '30 dni o Jezusu',
-      days_subtitle: '30 dni, 30 kratkih videov o Jezusu, vsak dan nekaj novega.',
+      days_subtitle: '30 dni, 30 kratkih videov o Jezusu — vsak dan nekaj novega.',
       progress_label: 'Objavljeni dnevi',
       progress: '{d} od 30 objavljenih dni',
       all_done: 'Vseh 30 dni je objavljenih — hvala, ker hodiš z mano!',
@@ -87,7 +111,12 @@
       grid_note: 'Zaklenjeni dnevi se odklenejo, ko bodo novi videi objavljeni na Instagramu.',
       toast_locked: 'Ta dan še ni objavljen — sledi mi na Instagramu in ga ujemi prvi!',
       grid_noscript: 'Mreža dni potrebuje JavaScript.',
-      grid_noscript_link: 'Poglej videe na Instagramu →'
+      grid_noscript_link: 'Poglej videe na Instagramu →',
+
+      /* instagram card */
+      ig_title: 'Instagram',
+      ig_desc: 'Sledi poti in ujemi vsak novi video, ko objavi.',
+      ig_btn: 'Sledi'
     }
   };
 
@@ -100,6 +129,8 @@
     try { localStorage.setItem('lovro_lang', l); } catch {}
   }
 
+  /* EN is the default; SL only when the browser language is Slovenian
+     or the visitor picked it before. */
   const detected = (navigator.language || 'en').toLowerCase().startsWith('sl') ? 'sl' : 'en';
   const initialLang = loadLang() || detected;
 
@@ -131,6 +162,11 @@
       /* [data-i18n] -> textContent */
       document.querySelectorAll('[data-i18n]').forEach(el => {
         el.textContent = this.t(el.dataset.i18n);
+      });
+
+      /* [data-i18n-html] -> innerHTML (first-party strings only) */
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        el.innerHTML = this.t(el.dataset.i18nHtml);
       });
 
       /* [data-i18n-attr="attr:key, attr2:key2"] -> setAttribute */
@@ -168,7 +204,7 @@
     b.addEventListener('click', () => Lovro.setLang(b.dataset.lang));
   });
 
-  /* ─── Reveal animation (with graceful fallback) ─────────── */
+  /* ─── Reveal animation (JS-gated: visible without JS) ───── */
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(entries => {
       entries.forEach(x => {

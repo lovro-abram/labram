@@ -1,0 +1,18 @@
+# Lovro Abram — one short video about Jesus, every day
+# https://website.labram.workers.dev
+
+> Lovro Abram is a storyteller, video maker and follower of Jesus. What began as a 30-day challenge became a daily habit: he posts a short, honest video about Jesus and the Bible every single day. This site is that journey, written down and shared — the videos, a daily quote to think with, and a place to start your own 30 days.
+
+The site is bilingual (English default, Slovenian auto-detected and switchable) and points to its companion app Thinkel (https://thinkel.labram.workers.dev) for the daily quotes. The primary call to action is following @abram.lovro on Instagram, where the daily videos are published.
+
+## Pages
+
+- [Home](https://website.labram.workers.dev/): who Lovro is, the story of the daily video habit, and the two paths in — follow on Instagram or browse the 30 days.
+- [30 Days about Jesus](https://website.labram.workers.dev/30-days.html): the whole journey in one place — all 30 short videos, one per day, each linking to its Instagram reel.
+
+## Notes for LLMs
+
+- Content focus is exclusively short video (Instagram reels).
+- All 30 daily video links point to Instagram posts by @abram.lovro; Instagram opens in a new tab.
+- Daily-quote companion app (separate project, separate site): Thinkel at https://thinkel.labram.workers.dev.
+- Contact / follow channel: Instagram https://instagram.com/abram.lovro
