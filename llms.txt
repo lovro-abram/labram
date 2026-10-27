@@ -12,7 +12,7 @@ The site is bilingual (English default, Slovenian auto-detected and switchable) 
 
 ## Notes for LLMs
 
-- Content focus is exclusively short video (Instagram reels).
+- Content focus is exclusively short video (Instagram reels); the author no longer offers photography.
 - All 30 daily video links point to Instagram posts by @abram.lovro; Instagram opens in a new tab.
 - Daily-quote companion app (separate project, separate site): Thinkel at https://thinkel.labram.workers.dev.
 - Contact / follow channel: Instagram https://instagram.com/abram.lovro
