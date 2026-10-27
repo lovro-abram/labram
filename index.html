@@ -20,7 +20,7 @@
 <meta property="og:url" content="https://website.labram.workers.dev/">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="sl_SI">
-<meta property="og:image" content="https://website.labram.workers.dev/og-image.png">
+<meta property="og:image" content="https://website.labram.workers.dev/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Lovro — one short video about Jesus, every day">
@@ -28,7 +28,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Lovro — one short video about Jesus, every day">
 <meta name="twitter:description" content="A daily short video about Jesus and the Bible, the 30-day journey in one place, and a free daily-quote app.">
-<meta name="twitter:image" content="https://website.labram.workers.dev/og-image.png">
+<meta name="twitter:image" content="https://website.labram.workers.dev/og-image.jpg">
 <meta name="twitter:image:alt" content="Lovro — one short video about Jesus, every day">
 
 <!-- Structured data -->
@@ -47,7 +47,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=12">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body data-i18n-title="title_home">
@@ -112,15 +112,11 @@
             <span data-i18n="ig_primary">Follow on Instagram</span>
             <span class="sr-only" data-i18n="new_tab">(opens in a new tab)</span>
           </a>
-          <a class="btn" href="30-days.html">
-            <svg aria-hidden="true"><use href="#icon-circle-play"/></svg>
-            <span data-i18n="days_btn">Browse the 30 days</span>
-          </a>
         </div>
       </div>
       <figure class="hero-fig reveal">
         <span class="frame"><img src="portret.jpg" alt="Lovro Abram" width="520" height="520" loading="eager" decoding="async"></span>
-        <figcaption data-i18n="hero_fig">that's me →</figcaption>
+        <figcaption><span data-i18n="hero_fig">that's me</span> <span aria-hidden="true">→</span></figcaption>
       </figure>
     </section>
 
@@ -136,7 +132,7 @@
     <section class="card reveal">
       <h2 class="card-title" data-i18n="days_title">The journey with Jesus</h2>
       <p class="muted" data-i18n="days_note">The whole journey in one place — all 30 short videos, one per day, ready whenever you are.</p>
-      <a class="btn btn-gold" href="30-days.html">
+      <a class="btn btn-gold" href="30-days">
         <svg aria-hidden="true"><use href="#icon-circle-play"/></svg>
         <span data-i18n="cta_btn">30 Days about Jesus</span>
       </a>
@@ -167,6 +163,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script defer src="app.js"></script>
+<script defer src="app.js?v=12"></script>
 </body>
 </html>

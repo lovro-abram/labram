@@ -30,7 +30,6 @@
       hero_line: "I'm Lovro — I post a short video about Jesus and the Bible every single day.",
       hero_fig: "that's me",
       ig_primary: 'Follow on Instagram',
-      days_btn: 'Browse the 30 days',
 
       /* home page */
       about_title: 'About me',
@@ -62,7 +61,13 @@
       /* instagram card */
       ig_title: 'Instagram',
       ig_desc: 'Follow the journey and catch each new video the day it drops.',
-      ig_btn: 'Follow'
+      ig_btn: 'Follow',
+
+      /* 404 page */
+      title_404: '404 – Lovro',
+      err_404_h1: 'Page not found',
+      err_404_p: 'This page does not exist.',
+      err_404_btn: 'Back home'
     },
     sl: {
       /* meta / titles */
@@ -84,7 +89,6 @@
       hero_line: 'Sem Lovro — vsak dan objavim kratek video o Jezusu in Svetem pismu.',
       hero_fig: 'to sem jaz',
       ig_primary: 'Sledi na Instagramu',
-      days_btn: 'Prebrskaj 30 dni',
 
       /* home page */
       about_title: 'O meni',
@@ -116,7 +120,13 @@
       /* instagram card */
       ig_title: 'Instagram',
       ig_desc: 'Sledi poti in ujemi vsak novi video, ko objavi.',
-      ig_btn: 'Sledi'
+      ig_btn: 'Sledi',
+
+      /* 404 page */
+      title_404: '404 – Lovro',
+      err_404_h1: 'Stran ne obstaja',
+      err_404_p: 'Stran, ki jo iščeš, ne obstaja.',
+      err_404_btn: 'Na domov'
     }
   };
 

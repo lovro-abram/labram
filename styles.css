@@ -78,7 +78,7 @@ body {
 
 /* instant focus, everywhere (Floor 6) */
 :focus-visible {
-  outline: 3px solid var(--gold);
+  outline: 3px solid var(--ink);   /* gold was ≈1.8:1 on paper — invisible focus ring (v12 audit) */
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -355,7 +355,7 @@ body {
 }
 .btn:hover { transform: translate(-2px, -2px); box-shadow: var(--shadow-md); }
 .btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 0 var(--shadow-c); }
-.btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 .btn:disabled { opacity: 0.45; transform: none; box-shadow: none; cursor: not-allowed; }
 .btn svg { width: 20px; height: 20px; flex: none; }
 
@@ -426,7 +426,7 @@ body {
 }
 .day:hover { transform: translate(-2px, -2px); box-shadow: var(--shadow-md); }
 .day:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 0 var(--shadow-c); }
-.day:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.day:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 
 .day svg {
   position: absolute;

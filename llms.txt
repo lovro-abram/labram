@@ -8,7 +8,7 @@ The site is bilingual (English default, Slovenian auto-detected and switchable) 
 ## Pages
 
 - [Home](https://website.labram.workers.dev/): who Lovro is, the story of the daily video habit, and the two paths in — follow on Instagram or browse the 30 days.
-- [30 Days about Jesus](https://website.labram.workers.dev/30-days.html): the whole journey in one place — all 30 short videos, one per day, each linking to its Instagram reel.
+- [30 Days about Jesus](https://website.labram.workers.dev/30-days): the whole journey in one place — all 30 short videos, one per day, each linking to its Instagram reel.
 
 ## Notes for LLMs
 

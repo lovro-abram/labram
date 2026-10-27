@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 – Lovro</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F6F0E4">
+<meta name="color-scheme" content="light">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='4' width='27' height='27' rx='6' fill='%231E9E55'/%3E%3Crect x='5' y='1' width='27' height='27' rx='6' fill='%23FFFDF6' stroke='%2315130F' stroke-width='2'/%3E%3Ctext x='18' y='21' font-size='15' font-family='Arial Black,Arial,sans-serif' font-weight='900' text-anchor='middle' fill='%2315130F'%3EL%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=12">
+<script>document.documentElement.classList.add('js');</script>
+
+<style>
+/* 404-specific layout only — all colors/typography come from styles.css */
+.nf-card { text-align: center; padding: 48px 32px; }
+.nf-tile {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: var(--gold);
+}
+.nf-code {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--green);
+  margin-top: 14px;
+}
+.nf-card .card-title { margin: 18px 0 10px; }
+.nf-card .btn { margin-top: 6px; }
+</style>
+</head>
+<body data-i18n-title="title_404">
+
+<a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+<div class="wrap">
+
+  <header class="top">
+    <a class="brand" href="/" aria-label="Back to home" data-i18n-attr="aria-label:back_home">
+      <span aria-hidden="true">←</span>
+      <span data-i18n="back_home">Home</span>
+    </a>
+    <div class="lang-switch" role="group" aria-label="Language / Jezik">
+      <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button class="lang-opt" type="button" data-lang="sl" aria-pressed="false">SL</button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="card nf-card">
+      <span class="nf-tile" aria-hidden="true"></span>
+      <div class="nf-code">404</div>
+      <h1 class="card-title center" data-i18n="err_404_h1">Page not found</h1>
+      <p class="muted center" data-i18n="err_404_p">This page does not exist.</p>
+      <a class="btn btn-primary" href="/" data-i18n="err_404_btn">Back home</a>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <span data-i18n="footer">© 2026 Lovro Abram · made with faith, light &amp; love</span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script defer src="/app.js?v=12"></script>
+</body>
+</html>
