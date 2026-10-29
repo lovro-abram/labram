@@ -39,8 +39,8 @@
       days_title: 'The journey with Jesus',
       days_note: 'The whole journey in one place — all 30 short videos, one per day, ready whenever you are.',
       cta_btn: '30 Days about Jesus',
-      thinkel_title: 'Thinkel — daily quotes',
-      thinkel_desc: 'One thought-provoking quote a day. Save it, write your thoughts, share it as an image.',
+      thinkel_title: 'Credo — daily passage',
+      thinkel_desc: 'One Bible verse a day. Save it, write your thoughts, share it as an image.',
       thinkel_btn: 'Open',
 
       /* 30-days page */
@@ -98,8 +98,8 @@
       days_title: 'Pot z Jezusom',
       days_note: 'Cela pot na enem mestu — vseh 30 kratkih videov, en na dan, pripravljeno, kadar koli si pripravljen ti.',
       cta_btn: '30 dni o Jezusu',
-      thinkel_title: 'Thinkel — dnevni citati',
-      thinkel_desc: 'En citat na dan za razmislek. Shrani ga, zapiši svoje misli, deli kot sliko.',
+      thinkel_title: 'Credo — dnevna vrstica Svetega pisma',
+      thinkel_desc: 'En svetopisemski verz na dan. Shranite ga, zapišite svoje misli, delite ga kot sliko.',
       thinkel_btn: 'Odpri',
 
       /* 30-days page */
