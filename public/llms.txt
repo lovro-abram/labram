@@ -12,7 +12,7 @@ The site is bilingual (English default, Slovenian auto-detected and switchable v
 
 ## Companion app
 
-- [Credo](https://credo.labram.workers.dev/): one Bible verse a day. Save it, write your thoughts, and share it as an image. Free to use, separate project and separate site. Formerly named Thinkel — treat any remaining "Thinkel" references as Credo.
+- [Credo](https://credo.labram.workers.dev/): one Bible verse a day. Save it, write your thoughts, and share it as an image. Free to use, separate project and separate site.
 
 ## Notes for LLMs
 
